@@ -1,0 +1,91 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+    font-family: Raleway;
+}
+
+.nav-menu {
+    overflow: hidden;
+    background-color: #dedede;
+}
+
+.footer-menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dedede;
+    color: black;
+    text-align: center;
+}
+
+
+.nav-menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.nav-menu a:hover {
+    color: skyblue;
+    background-color: white;
+    animation-name: topFadeOut;
+  animation-duration: 1s;
+}
+.nav-menu a.active {
+    background-color: skyblue;
+    color: white;
+}
+
+.card_music {
+
+    background-color: skyblue !important;
+    color: white !important;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.ref {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+@keyframes topFadeOut {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
