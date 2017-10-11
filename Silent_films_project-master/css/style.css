@@ -35,8 +35,9 @@ body {
     color: skyblue;
     background-color: white;
     animation-name: topFadeOut;
-  animation-duration: 1s;
+    animation-duration: 1s;
 }
+
 .nav-menu a.active {
     background-color: skyblue;
     color: white;
@@ -78,14 +79,22 @@ h2 {
 }
 
 @keyframes topFadeOut {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
+.btn-info {
+    background-color: skyblue !important;
 
+}
 
+h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
